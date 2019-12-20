@@ -48,6 +48,9 @@ public class Circulo {
 	}
 	
 	public double calcularSuperficie() {
+		/**
+		 * @return Este método devuelve el valor de la superficie del circulo
+		 */
 		return  Math.PI* Math.pow(radio, 2);
 	}
 	
