@@ -2,9 +2,10 @@ package Circulo;
 
 import java.util.Scanner;
 
-/** 
- * Este programa consiste en introducir por teclado un número que será el radio del circulo en cuestión
- * que posteriormente habrá que calcular su superficie mediante un cálculo matemático
+/**
+ * <h2> <b> SUPERFICIE DE UN CIRCULO </b> </h2> 
+ * <p> Este programa consiste en introducir por teclado un número que será el radio del circulo en cuestión
+ * que posteriormente habrá que calcular su superficie mediante un cálculo matemático </p>
  * @author: Iván Amor Martín
  * @version: 20/12/2019
  * @see <a href = "https://github.com/TheKouichi/Circulo" /> Aqui está el repositorio remoto con todos
@@ -13,6 +14,9 @@ import java.util.Scanner;
 
 public class Circulo {
 	//atributos o miembros dato
+	/*
+	 * La variable radio declarada privada y de tipo double
+	 */
 	private double radio;
 	
 	//Constructor
@@ -33,12 +37,18 @@ public class Circulo {
 	}
 	
 	//Constructor copia
+	/*
+	 * Este es el constructor copia del proyecto
+	 */
 	public Circulo(Circulo copia) {
 		radio = copia.radio;
 	}
 	
 	//miembros metodo u operaciones que puedes hacer con el objeto
 	
+	/*
+	 * Estos dos métodos a continuacion son los getters y setters del proyecto
+	 */
 	public double getRadio() {
 		return radio;
 	}
