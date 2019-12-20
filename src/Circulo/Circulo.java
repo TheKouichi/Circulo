@@ -16,6 +16,11 @@ public class Circulo {
 	private double radio;
 	
 	//Constructor
+	
+	/**
+	 * Constructor para sacar el radio del circulo
+	 * @param radio Este radio dará lugar al cálculo de la superficie de dicho circulo
+	 */
 	public Circulo(double radio){
 		this.radio = radio;
 	}
