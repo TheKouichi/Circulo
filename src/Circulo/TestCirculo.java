@@ -1,5 +1,12 @@
 package Circulo;
 
+/**
+ * <h2> <b> TEST DEL CIRCULO </h2> </b>
+ * @author Iván Amor Martín
+ * @version 20/12/2019
+ * @see <a href = "https://github.com/TheKouichi/Circulo" /> Aqui está el repositorio remoto con todos
+ * los pasos del proyecto </a>
+ */
 public class TestCirculo {
 
 	public static void main(String[] args) {
