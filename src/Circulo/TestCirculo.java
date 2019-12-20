@@ -7,16 +7,29 @@ package Circulo;
  * @see <a href = "https://github.com/TheKouichi/Circulo" /> Aqui est� el repositorio remoto con todos
  * los pasos del proyecto </a>
  */
+
+/*
+ * Comienzo del test
+ */
 public class TestCirculo {
 
 	public static void main(String[] args) {
+		/*
+		 * Creaci�n de un nuevo circulo
+		 */
 		Circulo miCirculo = new Circulo();
+		/*
+		 * Comienza a utilizarse el metodo get
+		 */
 		System.out.println(miCirculo.getRadio());
 		miCirculo.setRadio(10);
 		System.out.println(miCirculo.getRadio());
-		System.out.println("El área del círculo es " + miCirculo.calcularSuperficie());
+		/*
+		 * Aqui se sacan por pantalla los resultados
+		 */
+		System.out.println("El Area del circulo es " + miCirculo.calcularSuperficie());
 		Circulo tuCirculo = new Circulo(miCirculo);
-		System.out.println("El área del círculo es " + tuCirculo.calcularSuperficie());
+		System.out.println("El Area del circulo es " + tuCirculo.calcularSuperficie());
 	}
 
 }
